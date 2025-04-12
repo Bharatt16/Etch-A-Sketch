@@ -20,13 +20,6 @@ body>h1{
     width: 1073px;
 }
 
-.container{
-    height : 455px;
-    width : 455px;
-    border:2px solid black;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
-}
 .setting{
     height : 455px;
     width : 200px;
@@ -57,9 +50,9 @@ body>h1{
 
 .btn:hover {
     transform: scale(1.05); /* slightly bigger on hover */
-  }
+}
 
-  input[type='range'] {
+input[type='range'] {
     appearance: none;
     background-color: var(--primary-light);
     border: 1px solid black;
@@ -75,14 +68,20 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 50%;
     background: #060606;
     cursor: pointer;
-  }
+}
 .setting>p{
     font-size: 25px;
 }
-.box{
+.gridCells{
     border: 1px solid black;
+    box-sizing: border-box;
 }
 .container{
-    display: flex;
+    height : 455px;
+    width : 455px;
+    border:2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    display: flex;    
     flex-wrap:wrap;
 }
