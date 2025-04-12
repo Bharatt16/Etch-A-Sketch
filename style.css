@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F0F1C5;;;
+    background-color: #F0F1C5;
     font-family:monospace;
 }
 
@@ -46,10 +46,25 @@ body>h1{
     transition: background-color 0.3s, transform 0.2s;
     background-color:#6F826A;
     color : white;
+    cursor: pointer;
 }
 
 .btn:hover {
-    transform: scale(1.05); /* slightly bigger on hover */
+    transform: scale(1.08); /* slightly bigger on hover */
+}
+
+#clrBtn:hover , #clrGrids:hover{
+    background-color: #BF9264;
+}
+
+.btnClicked{
+    transform:scale(1.08);
+    background-color: #BF9264;
+}
+
+#clrGrids{
+    position : relative;
+    top:-185px;
 }
 
 input[type='range'] {
